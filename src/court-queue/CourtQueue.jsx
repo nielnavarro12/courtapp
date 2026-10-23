@@ -254,7 +254,7 @@ function PickleballCourt({ court, rental, next }) {
     </div>
   </>
         ) : (
-          <div className="free">
+          <div className="rent-bot free">
             AVAILABLE
             {next && (
               <div className="rent-sub">Rented from {fmtTime(next.start)}</div>

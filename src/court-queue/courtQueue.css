@@ -43,14 +43,14 @@ iframe.ad-fill{pointer-events:none}
 .tv-start{position:fixed;inset:0;z-index:200;width:100%;font-size:5vh;background:#0b0f14;color:#2fd08a;border:0;cursor:pointer}
 
 /* ---------- Pickleball court (vertical: net runs across the middle) ---------- */
-.pcw{background:#a2a6af;border-radius:1.6vh;padding:1.2vh}
-.ct{position:relative;height:var(--ch,58vh);aspect-ratio:20/44;container-type:inline-size;background:#07358b;border:.5vh solid #fff}
+.pcw{background:#c7c9ce;padding:1.2vh}
+.ct{position:relative;height:var(--ch,58vh);aspect-ratio:25/44;container-type:inline-size;background:#07358b;border:.3vh solid #fff}
 .kz{position:absolute;left:0;right:0;height:15.91%;background:#d67627}
-.kz.l{top:34.09%;border-top:.4vh solid #fff}
-.kz.r{top:50%;border-bottom:.4vh solid #fff}
+.kz.l{top:34.09%;border-top:.3vh solid #fff}
+.kz.r{top:50%;border-bottom:.3vh solid #fff}
 .cl{position:absolute;left:50%;width:.4vh;margin-left:-.2vh;height:34.09%;background:#fff}
 .cl.a{top:0}.cl.b{bottom:0}
-.net{position:absolute;top:50%;left:-1.2vh;right:-1.2vh;height:.8vh;margin-top:-.4vh;z-index:3;background:repeating-linear-gradient(90deg,#111 0 .5vh,#e6e6e6 .5vh 1vh)}
+.net{position:absolute;top:50%;left:-1.2vh;right:-1.2vh;height:.8vh;margin-top:-.4vh;z-index:3;background:repeating-linear-gradient(90deg,#111 0 .3vh,#e6e6e6 .3vh .5vh)}
 .cname{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);z-index:4;background:#111;color:#fff;border:.3vh solid #fff;border-radius:999px;padding:.35em .9em;font-weight:800;font-size:7.5cqw;letter-spacing:.06em;white-space:nowrap}
 .pn{position:absolute;width:50%;height:34.09%;display:flex;align-items:center;justify-content:center;text-align:center;font-weight:800;font-size:9cqw;line-height:1.1;color:#fff;padding:0 1cqw;overflow-wrap:anywhere;text-shadow:0 .2vh .6vh #0009;z-index:2}
 .pn.tl{left:0;top:0}.pn.tr{left:50%;top:0}.pn.bl{left:0;bottom:0}.pn.br{left:50%;bottom:0}
@@ -59,10 +59,10 @@ iframe.ad-fill{pointer-events:none}
 .pcw.rented{background:#d4a236}
 .pcw.rented .ct{filter:saturate(.6) brightness(.75)}
 .rent-top,.rent-bot{position:absolute;left:0;right:0;z-index:2;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;color:#fff;text-shadow:0 .2vh .6vh #000a;line-height:1.15}
-.rent-top{top:34.09%;height:13.2%}
+.rent-top{top:34.09%;height:13.2%;margin-top:-.3vh}.rent-bot{top:50%;height:13.4%;margin-top:.3vh}
 .rent-bot{top:52.5%;height:13.4%}
 .rent-tag{display:inline-block;background:#f0b429;color:#201600;font-weight:900;font-size:9cqw;letter-spacing:.08em;padding:.1em .5em;border-radius:999px;text-shadow:none}
-.rent-time{font-size:8.5cqw;font-weight:800}
+.rent-time{font-size:8.5cqw;font-weight:800;margin-top:.8cqw}
 .rent-sub{font-size:8.5cqw;font-weight:600;opacity:.9;margin-top:.8cqw}
 /* ---------- Announcement overlay ---------- */
 .ov{position:fixed;inset:0;z-index:100;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;color:#fff;padding:4vh 4vw;overflow:hidden;animation:ov-pop .4s ease}
