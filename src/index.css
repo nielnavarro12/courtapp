@@ -1,0 +1,9 @@
+body { margin: 0; background: #f5f6f8; }
+@media (prefers-color-scheme: dark) { body { background: #0e1116; } }
+.tv-profile {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  flex-shrink: 0; /* Prevents image from shrinking */
+}
