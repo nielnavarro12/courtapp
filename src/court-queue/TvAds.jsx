@@ -22,7 +22,7 @@ export function AdPanel({ ads, sound, fill }) {
   const cls = `ad-fill${fill ? ' cover' : ''}`;
   if (cur.type === 'video') {
     return (
-      <video key={`${cur.id}-${i}`} className={cls} src={cur.url} autoPlay muted={sound} playsInline
+      <video key={`${cur.id}-${i}`} className={cls} src={cur.url} autoPlay muted={!sound} playsInline
         loop={ads.length === 1} onEnded={next} onError={() => setTimeout(next, 3000)} 
         controls={true}
       />
